@@ -1,4 +1,4 @@
-name: .NET Core with artifact upload
+name: .NET Core with web deploy
 
 on:
   push:
