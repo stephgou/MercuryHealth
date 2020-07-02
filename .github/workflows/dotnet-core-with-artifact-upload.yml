@@ -1,6 +1,10 @@
 name: .NET Core with artifact upload
 
 on:
+#gollum event to trigger workflow I want to temporary ignore 
+#used for runs your workflow when someone creates or updates a Wiki page, which triggers the gollum event.
+  gollum
+
   #push:
   #  branches: [ master ]
   #pull_request:
