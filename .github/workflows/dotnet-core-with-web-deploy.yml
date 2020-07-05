@@ -1,10 +1,14 @@
 name: .NET Core with web deploy
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#gollum event to trigger workflow I want to temporary ignore 
+#used for runs your workflow when someone creates or updates a Wiki page, which triggers the gollum event.
+  gollum
+
+  #push:
+  #  branches: [ master ]
+  #pull_request:
+  #  branches: [ master ]
 
 jobs:
   # build .net core web app
