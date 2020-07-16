@@ -34,3 +34,4 @@ jobs:
         # Applies to Web Apps(Windows and Linux) and Web App Containers(linux). Multi container scenario not supported. Publish profile (*.publishsettings) file contents with Web Deploy secrets
         publish-profile: ${{secrets.GO}}
         # Enter an existing Slot other than the Production slot
+        package: Web/bin/Debug/netcoreapp3.1/publish
